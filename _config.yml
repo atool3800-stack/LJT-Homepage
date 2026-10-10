@@ -4,7 +4,7 @@ title: "Junteng Liu"
 title_separator: "-"
 name: "Junteng Liu"
 description: "First-year PhD candidate at HKUST NLP Group"
-url: "https://atool3800-stack.github.io"
+url: ""
 baseurl: "/LJT-Homepage"
 repository: "atool3800-stack/LJT-Homepage"
 
@@ -13,17 +13,18 @@ author:
   bio: "First-year PhD candidate at HKUST NLP Group"
   employer: "HKUST NLP Group"
   email: "jliugi@connect.ust.hk"
-  googlescholar: "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
+  googlescholar: "https://scholar.google.com/citations?hl=en\u0026user=tbK9jl4AAAAJ\u0026view_op=list_works\u0026sortby=pubdate"
   github: "Vicent0205"
   twitter: "junteng88716710"
 
-site_theme: "default"
 breadcrumbs: false
 future: true
 read_more: "disabled"
 talkmap_link: false
 comments:
   provider:
+atom_feed:
+  hide: true
 
 include:
   - .htaccess
@@ -41,17 +42,13 @@ exclude:
 
 collections:
   teaching:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 defaults:
   - scope:
@@ -78,24 +75,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-whitelist:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+plugins: []
 compress_html:
   clippings: all
   ignore:
