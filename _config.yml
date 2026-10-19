@@ -103,7 +103,7 @@ comments:
   disqus:
     shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-tutorial-via-javascript/31963 , e.g.: meta.discourse.org
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     appid                :
     num_posts            : # 5 (default)
@@ -321,7 +321,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll
+  - jemoji
 
 
 # Archives
